@@ -2,3 +2,11 @@ SurfNotification is a cool service that allows you to get easy access
 to surf forecast data from all of your favorite spots.  Just run the 
 program and it checks its email account for new commands from users.
 To learn more about it, text INFO to SurfNotification@gmail.com.
+
+The way it functions is a little bit unusual at the moment, as it does
+not use a conventional database and does not run on an actual server;
+rather, it uses a Microsoft Excel Spreadsheet as a database and runs on
+my shitty old 2005 HP laptop that is running in my closet.
+
+To gather data, it uses a BeautifulSoup4, a webscraper, and collects
+data from http://magicseaweed.com.
